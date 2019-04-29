@@ -1,0 +1,51 @@
+{
+    "name": "pdi-support",
+    "displayName": "PDI Support",
+    "description": "SAP PDI Support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "absl",
+                "aliases": [
+                    "ABAP Script Language",
+                    "absl"
+                ],
+                "extensions": [
+                    "absl"
+                ],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "bodl",
+                "aliases": [
+                    "Business Object Defination Language",
+                    "bodl"
+                ],
+                "extensions": [
+                    "bo",
+                    "xbo"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "absl",
+                "scopeName": "source.absl",
+                "path": "./syntaxes/absl.tmLanguage.json"
+            },
+            {
+                "language": "bodl",
+                "scopeName": "source.bodl",
+                "path": "./syntaxes/bodl.tmLanguage.json"
+            }
+        ]
+    }
+}
