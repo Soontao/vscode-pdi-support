@@ -1,4 +1,4 @@
-# PDI Support README
+# PDI Support
 
 Provide vscode suppport for SAP PDI Development Environment.
 
