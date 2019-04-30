@@ -3,3 +3,4 @@
 ## Features
 
 * BODL/ABSL Highlight
+* General snippets

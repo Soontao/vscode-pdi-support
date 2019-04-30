@@ -1,0 +1,27 @@
+{
+	"Foreach": {
+		"prefix": "for",
+		"body": [
+			"foreach (var ${1:oItem} in ${2:oList}) {",
+			"\t$0",
+			"}"
+		],
+		"description": "Loop object"
+	},
+	"If": {
+		"prefix": "if",
+		"body": [
+			"if (${1:condition}) {",
+			"\t$0",
+			"}"
+		],
+		"description": "If statement"
+	},
+	"Raise": {
+		"prefix": "raise",
+		"body": [
+			"raise ${1:message}.Create(\"${2|I,E,W|}\", ${3:variable});"
+		],
+		"description": "Raise message"
+	}
+}

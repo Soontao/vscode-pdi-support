@@ -10,6 +10,12 @@
         "Programming Languages"
     ],
     "contributes": {
+        "snippets": [
+			{
+				"language": "absl",
+				"path": "./snippets/absl.snippet.json"
+			}
+		],
         "languages": [
             {
                 "id": "absl",
