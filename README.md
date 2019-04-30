@@ -1,6 +1,6 @@
-# PDI Support
+# VSCode PDI Support
 
-Provide vscode suppport for SAP PDI Development Environment.
+Support SAP PDI Development Environment for VSCode.
 
 ## Status
 
