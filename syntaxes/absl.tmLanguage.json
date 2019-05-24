@@ -17,8 +17,20 @@
 			"patterns": [
 				{
 					"name": "keyword.control.absl",
-					"match": "\\b(raise|return|import|var|in|foreach|if|else|while|switch|case)\\b"
-				}
+					"match": "\\b(raise|return|import|var|in|foreach|if|else|while|switch|case|default|continue|break)\\b"
+				},
+				{
+					"name": "constant.language.absl",
+					"match": "\\b(true|false)\\b"					
+				},
+				{
+					"name": "variable.language.absl",
+					"match": "\\b(this)\\b"					
+				},
+				{
+					"name": "storage.type.absl",
+					"match": "\\b(collectionof|elementsof)\\b"
+				}				
 			]
 		},
 		"strings": {
